@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: "Nunito";
+}
+
+.navbar{
+  background-color:#CE4A05 !important;
+}
+
+.nav-link, .navbar-brand{
+  color:#f7f7f7;
+}
+
+.nav-link:hover, .navbar-brand:hover{
+  color:#f7f7f7bd;
+}
+
+.btn-outline-light, .search, .nav-link{
+  font-size:0.85rem;
+}
+
+.btn-outline-light:hover{
+  background:#CE4A05;
+}
+
+.btn-default{
+  background:#CE4A05;
+  color:white;
+  border-radius: 0;
+  font-size:0.85rem;
+  font-weight:700;
+  padding:15px 30px !important;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.15),0px 4px 6px rgba(0,0,0,0.22),0px 4px 6px rgba(0,0,0,0.22);
+}
+
+.btn-default:hover{
+  color:#f7f7f7;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.22),0px 0px 0px rgba(0,0,0,0.22),0px 0px 0px rgba(0,0,0,0.22);
+}
+
+#btn-clear, #btn-reset{
+  background:#373D43 !important;
+}
+
+.tab .tab-container{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.h2, .h4{
+  font-weight:700;
+}
+
+.h6{
+  padding:20px 0;
+}
+
+.alert{
+  margin-top:20px;
+}
+
+form{
+  margin:40px 0;
+}
+
+.tab-border{
+  border-bottom:3px solid #CE4A05;
+}
+
+#debtInvestment, #nonMonthlyPayment, #loanAppForm{
+  display:none;
+}
+
+.show{
+  display:block !important;
+}
+
+tr td, tr th{
+  font-size:0.85rem;
+}
+
+textarea{
+  resize: none;
+}
